@@ -1,0 +1,3 @@
+function aboutMe() {
+    document.getElementById
+}

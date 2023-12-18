@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background-color: black;
+    
+}
+    
+nav{
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    line-height: 50px;
+}
+a.active,a:hover{
+    background: rgb(207, 204, 204);
+    transition: .3s;
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+.container{
+    background-image: url('images/background.png');
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.description{
+    line-height: 1.5;
+    font-size: 50px;
+    font-weight: lighter;
+}
+p{
+    line-height: 1.5;
+}
+p.get{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+p.skills{
+    text-align: left;
+}
+
+#profileImage{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 70px;
+    
+}
+.container2{
+    background-image: url('images/sabri-tuzcu-wunVFNvqhfE-unsplash.jpg');
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 70px;
+    text-align: center;
+    flex: 2;
+    color:black;
+}
+
+.container2_title{
+    font-size: xx-large;
+}
+
+.container3{
+    background-color: rgb(3, 3, 26);
+    height: 600px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.container3_1{
+    background: black;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+
+.imageDescription{
+    height: 500px;
+    left: 135px;
+}
+
+.container0{
+    display: flex;
+    flex-direction: row;
+    flex: 50% 1fr;
+    width: 80%;
+    margin: auto;
+
+}
+
+.imagediv{
+    height: 500px;
+    margin-top: 70px;
+    text-align: center;
+    flex: 1;
+}
+
+.project_container{
+    height: 500px;
+    font-size: xx-large;
+    background-image: url('images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: white;
+}
+
+button{
+    height: 30px;
+    width: 300px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+button.aboutMe{
+    background-color: green;
+    position: absolute;
+    left: 520px;
+    bottom: -300px;
+    height: 50px;
+}
+
+.liveChart{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+input.submitButton{
+    background-color: green;
+    margin-top: 30px;
+}
+
+input.messageMe{
+    height: 120px;
+}
+
+.getinTouch{
+    display: flex;
+    flex-direction: column;
+
+}
+.jobaimage{
+    width: 500px;
+    border-radius: 50%;
+}
+
+.icons{
+    width: 30px;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+.iconImages{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    background-color: rgb(173, 171, 171);
+    width: 30%;
+    height: 100%;
+    justify-content: space-around;
+}
